@@ -30,6 +30,6 @@
 </head>
 <body>
     <h1>WELCOME TO THE DEVOPS WORLD</h1>
-    <h1>Nagakrishna</h1>
+    <h2>NAGAKRISHNA</h2>
 </body>
 </html>
