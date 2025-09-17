@@ -52,7 +52,7 @@
   </style>
 </head>
 <body>
-  <h1>WELCOME TO THE DEVOPS TRAINING WORLD !</h1>
+  <h1>WELCOME TO THE DEVOPS!</h1>
   <h2>BATCH 16D</h2>
 </body>
 </html>
