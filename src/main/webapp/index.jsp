@@ -1,35 +1,58 @@
-
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>DevOps World</title>
-    <style>
-        body {
-            background-color: black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            font-size: 50px;
-            font-weight: bold;
-            color: #fff;
-            text-align: center;
-            animation: sparkle 2s infinite;
-        }
-        @keyframes sparkle {
-            0% { color: #ff0000; text-shadow: 0 0 10px #ff0000; }
-            25% { color: #00ff00; text-shadow: 0 0 20px #00ff00; }
-            50% { color: #0000ff; text-shadow: 0 0 30px #0000ff; }
-            75% { color: #ffff00; text-shadow: 0 0 40px #ffff00; }
-            100% { color: #ff00ff; text-shadow: 0 0 50px #ff00ff; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>DevOps World</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #111;
+      background-image: url('images/devops-aws-bg.png'); /* place your logos image here */
+      background-size: 150px 150px; /* repeat logos like pattern */
+      background-repeat: repeat;
+    }
+
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      color: #ffd86b;
+      text-align: center;
+      margin: 0;
+      text-shadow: 0 0 6px rgba(255,200,80,0.6), 0 0 20px rgba(255,200,80,0.5);
+      animation: sparkle 3s linear infinite;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 15px;
+      text-shadow: 0 0 6px rgba(0,200,255,0.6), 0 0 20px rgba(0,200,255,0.5);
+      animation: sparkleBlue 3s linear infinite;
+    }
+
+    @keyframes sparkle {
+      0%   { text-shadow: 0 0 6px #ffd86b, 0 0 20px #ffb347; }
+      50%  { text-shadow: 0 0 16px #fff799, 0 0 32px #ffdd44; }
+      100% { text-shadow: 0 0 6px #ffd86b, 0 0 20px #ffb347; }
+    }
+
+    @keyframes sparkleBlue {
+      0%   { text-shadow: 0 0 6px #00c8ff, 0 0 20px #33d4ff; }
+      50%  { text-shadow: 0 0 16px #66e0ff, 0 0 32px #00aaff; }
+      100% { text-shadow: 0 0 6px #00c8ff, 0 0 20px #33d4ff; }
+    }
+  </style>
 </head>
 <body>
-    <h1>WELCOME TO THE DEVOPS WORLD</h1>
-    <h2>NAGAKRISHNA</h2>
+  <h1>WELCOME TO THE DEVOPS WORLD !</h1>
+  <h2>NAGAKRISHNA</h2>
 </body>
 </html>
